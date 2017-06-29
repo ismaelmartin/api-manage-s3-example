@@ -1,0 +1,44 @@
+{
+  "name": "privalia/privalia-s3",
+
+  "description": "Privalia Aws S3 API",
+
+  "type": "project",
+
+  "keywords": [
+    "privalia",
+    "api",
+    "rest",
+    "json-api",
+    "skeleton",
+    "silex",
+    "s3"
+  ],
+
+  "license": "proprietary",
+
+  "authors": [{
+    "name": "Ismael Martín",
+    "email": "ismael.martin@ext.privalia.com"
+  }],
+
+  "support": {
+    "email": "it.som.teamb@privalia.com"
+  },
+
+  "require": {
+    "aws/aws-sdk-php": "^3.28",
+    "silex/silex": "~2.0"
+  },
+
+  "require-dev": {
+    "phpunit/phpunit": "^5.5"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  }
+
+}
